@@ -1,0 +1,26 @@
+specVersion: 0.0.5
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum
+    name: IcaCalldata
+    network: local
+    source:
+      address: "0x4d445E6A367619795a83A02429060d4Fb819f6a4"
+      abi: IcaCalldata
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - IcaCallEvent
+        - IcaRegsiterEvent
+      abis:
+        - name: IcaCalldata
+          file: IcaCalldata/abis/IcaCalldata.json
+      eventHandlers:
+        - event: IcaCallEvent(indexed address,string)
+          handler: handleIcaCallEvent
+        - event: IcaRegsiterEvent(indexed address)
+          handler: handleIcaRegsiterEvent
+      file: IcaCalldata/IcaCalldata.wasm

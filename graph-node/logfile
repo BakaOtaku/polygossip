@@ -1,0 +1,66 @@
+2022-12-04 05:00:58.450 IST [32148] LOG:  starting PostgreSQL 15.1 (Homebrew) on aarch64-apple-darwin22.1.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.202), 64-bit
+2022-12-04 05:00:58.452 IST [32148] LOG:  listening on IPv6 address "::1", port 5432
+2022-12-04 05:00:58.452 IST [32148] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-12-04 05:00:58.453 IST [32148] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-12-04 05:00:58.454 IST [32151] LOG:  database system was shut down at 2022-12-04 05:00:51 IST
+2022-12-04 05:00:58.456 IST [32148] LOG:  database system is ready to accept connections
+2022-12-04 05:05:58.453 IST [32149] LOG:  checkpoint starting: time
+2022-12-04 05:07:26.194 IST [53464] ERROR:  pg_stat_statements must be loaded via shared_preload_libraries
+2022-12-04 05:07:26.194 IST [53464] STATEMENT:  select pg_stat_statements_reset()
+2022-12-04 05:07:36.222 IST [32149] LOG:  checkpoint complete: wrote 967 buffers (5.9%); 1 WAL file(s) added, 0 removed, 0 recycled; write=97.744 s, sync=0.020 s, total=97.769 s; sync files=326, longest=0.001 s, average=0.001 s; distance=4550 kB, estimate=4550 kB
+2022-12-04 05:09:13.627 IST [53553] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.659 IST [53557] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.659 IST [53554] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.659 IST [53555] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.659 IST [53558] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.662 IST [53559] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.662 IST [53561] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.662 IST [53560] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.666 IST [53562] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.667 IST [53563] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.668 IST [53564] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:13.668 IST [53565] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.066 IST [53571] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.072 IST [53573] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.072 IST [53574] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.072 IST [53572] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.074 IST [53576] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.074 IST [53577] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.075 IST [53575] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.077 IST [53578] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.077 IST [53579] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.077 IST [53580] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.079 IST [53581] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.646 IST [53585] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.879 IST [53586] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.883 IST [53587] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.883 IST [53588] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.883 IST [53589] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.886 IST [53590] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.886 IST [53591] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.887 IST [53592] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.889 IST [53593] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.890 IST [53594] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.890 IST [53595] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:14.892 IST [53596] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.497 IST [53598] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.498 IST [53599] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.499 IST [53600] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.500 IST [53601] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.501 IST [53602] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.502 IST [53603] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.503 IST [53604] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.505 IST [53605] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.505 IST [53606] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.506 IST [53607] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:16.507 IST [53608] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:18.652 IST [53611] FATAL:  role "postgres" does not exist
+2022-12-04 05:09:19.675 IST [53612] FATAL:  role "postgres" does not exist
+2022-12-04 05:10:58.223 IST [32149] LOG:  checkpoint starting: time
+2022-12-04 05:11:47.229 IST [32149] LOG:  checkpoint complete: wrote 485 buffers (3.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=48.975 s, sync=0.006 s, total=49.006 s; sync files=131, longest=0.001 s, average=0.001 s; distance=4128 kB, estimate=4508 kB
+2022-12-04 05:15:00.799 IST [32148] LOG:  server process (PID 54068) was terminated by signal 9: Killed: 9
+2022-12-04 05:15:00.799 IST [32148] LOG:  terminating any other active server processes
+2022-12-04 05:15:00.800 IST [32148] LOG:  all server processes terminated; reinitializing
+2022-12-04 05:15:00.804 IST [32148] LOG:  startup process (PID 54070) was terminated by signal 9: Killed: 9
+2022-12-04 05:15:00.804 IST [32148] LOG:  aborting startup due to startup process failure
+2022-12-04 05:15:00.804 IST [32148] LOG:  database system is shut down

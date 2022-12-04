@@ -1,0 +1,16 @@
+type IcaCallEvent @entity(immutable: true) {
+  id: Bytes!
+  caller: Bytes! # address
+  icamsg: String! # string
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type IcaRegsiterEvent @entity(immutable: true) {
+  id: Bytes!
+  caller: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
